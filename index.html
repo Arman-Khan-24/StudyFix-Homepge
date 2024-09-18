@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyFix</title>
+    <title>StudyFix Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,88 +16,115 @@
                 <img src="https://i.ibb.co/c1dJ5tL/Cropped-Image-2-1.png" alt="StudyFix Logo" class="logo-img">
                 <div class="logo-text">StudyFix</div>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </nav>
             <a href="#" class="cta-button">Start focusing</a>
         </header>
         <main>
             <section class="hero">
                 <h1>Your journey to a <span class="gradient-text">balanced life</span></h1>
-                <p class="subtitle">Your journey to a balanced life starts here—easy study plans, fitness routines, and
-                    community support, all clear!</p>
-                <a href="#" class="cta-button">Start focusing</a>
+                <p class="subtitle">Easy study plans, fitness routines, and community support, all in one place!</p>
+                <a href="#" class="cta-button pulse">Start focusing</a>
             </section>
 
-            <div class="expanding-cards">
+            <div class="expanding-cards" id="features">
                 <div class="panel active"
-                    style="background-image: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
-                    <h3>Explore The World</h3>
+                    style="background-image: url('https://i.pinimg.com/564x/67/af/99/67af9974fa9fbfa9730627c50ec0d6f4.jpg')">
+                    <h3>Pomodoro Technique</h3>
                 </div>
                 <div class="panel"
-                    style="background-image: url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
-                    <h3>Wild Forest</h3>
+                    style="background-image: url('https://i.pinimg.com/474x/ea/87/ed/ea87eda6724d41df64c0d7c6827c2aff.jpg')">
+                    <h3>Personalized Workouts</h3>
                 </div>
                 <div class="panel"
-                    style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')">
-                    <h3>Sunny Beach</h3>
+                    style="background-image: url('https://i.pinimg.com/564x/1c/51/51/1c515101d753e5c2e8854a112ca3fbdc.jpg')">
+                    <h3>Community Building</h3>
                 </div>
                 <div class="panel"
-                    style="background-image: url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')">
-                    <h3>City on Winter</h3>
+                    style="background-image: url('https://i.pinimg.com/236x/9c/69/a2/9c69a27cc8e702a4cbea8206a0b9cd57.jpg')">
+                    <h3>Curated Feed</h3>
                 </div>
                 <div class="panel"
-                    style="background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
-                    <h3>Mountains - Clouds</h3>
+                    style="background-image: url('https://i.pinimg.com/736x/ff/ec/da/ffecdaee2d81e7835f2983210b76acb0.jpg')">
+                    <h3>AI Chatbot</h3>
                 </div>
             </div>
 
+            <section class="stats">
+                <div class="stat">
+                    <div class="stat-number" data-target="521004">0</div>
+                    <div>Students</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" data-target="18540">0</div>
+                    <div>Reviews</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" data-target="14426">0</div>
+                    <div>5-star ratings</div>
+                </div>
+            </section>
         </main>
-        <section class="stats">
-            <div class="stat">
-                <div class="stat-number">500K+</div>
-                <div>Students</div>
+
+        <footer>
+            <div class="footer">
+                <div class="logo">StudyFix</div>
+                <p class="description">StudyFix is an all-in-one platform for productivity, fitness and community
+                    engagement.</p>
+                <button class="start-reading">Start focusing</button>
+                <div class="columns">
+                    <div class="column" id="features">
+                        <h3>Features</h3>
+                        <ul>
+                            <li><a href="#">Study Planner</a></li>
+                            <li><a href="#">Fitness Tracker</a></li>
+                            <li><a href="#">Web version</a></li>
+                            <li><a href="#">Mobile App</a></li>
+                            <li><a href="#">Pomodoro Timer</a></li>
+                            <li><a href="#">Progress Tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="column" id="community">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="#">Study Groups</a></li>
+                            <li><a href="#">Fitness Challenges</a></li>
+                            <li><a href="#">Feature requests</a></li>
+                            <li><a href="#">Online events</a></li>
+                            <li><a href="#">Success Stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="column" id="resources">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Study Tips</a></li>
+                            <li><a href="#">Workout Guides</a></li>
+                            <li><a href="#">Nutrition Blog</a></li>
+                            <li><a href="#">Success Stories</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a id="fb" target="blank" href="https://www.facebook.com/" aria-label="Facebook"><i class="ri-facebook-box-fill"></i></a>
+                    <a id="twitter" target="blank" href="https://www.x.com/" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+                    <a id="insta" target="blank" href="https://www.instagram.com/" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                    <a id="linkedin" target="blank" href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+                <div class="bottom-text">
+                    <p>© 2024 StudyFix Ltd. | <a href="#">Terms</a> | <a href="#">Privacy</a> | <a
+                            href="#">Guidelines</a></p>
+                    <p>Empowering students to achieve their best, wherever they are</p>
+                </div>
             </div>
-            <div class="stat">
-                <div class="stat-number">2,000+</div>
-                <div>Reviews</div>
-            </div>
-            <div class="stat">
-                <div class="stat-number">15K+</div>
-                <div>5-star ratings</div>
-            </div>
-        </section>
+        </footer>
     </div>
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Features</h3>
-                    <ul>
-                        <li><a href="#">Study Planner</a></li>
-                        <li><a href="#">Fitness Tracker</a></li>
-                        <li><a href="#">Web version</a></li>
-                        <li><a href="#">Mobile App</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Community</h3>
-                    <ul>
-                        <li><a href="#">Study Groups</a></li>
-                        <li><a href="#">Fitness Challenges</a></li>
-                        <li><a href="#">Feature requests</a></li>
-                        <li><a href="#">Online events</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Resources</h3>
-                    <ul>
-                        <li><a href="#">Study Tips</a></li>
-                        <li><a href="#">Workout Guides</a></li>
-                        <li><a href="#">Nutrition Blog</a></li>
-                        <li><a href="#">Success Stories</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
     <script src="script.js"></script>
 </body>
 
